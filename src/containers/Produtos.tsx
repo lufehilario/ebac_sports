@@ -32,7 +32,6 @@ const ProdutosComponent = ({
             key={produto.id}
             produto={produto}
             favoritar={favoritar}
-            aoComprar={adicionarAoCarrinho}
           />
         ))}
       </S.Produtos>
